@@ -1,0 +1,51 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	padding-left: 20px;
+	padding-top: 20px;
+}
+.container{
+	border-top:1px solid white;
+	border-left:1px solid white;
+}
+
+.row{
+	display: relative;	
+	clear:both;
+}
+.box{
+	float: left;
+	border-bottom:1px solid white;
+	border-right:1px solid white;
+	background: rgb(240,240,240);
+}
+
+.bar{
+	width:360px;
+	clear:both;
+	line-height: 35px;
+	height: 35px;
+	text-align: center;
+	margin-top:5px;
+	margin-bottom:5px;
+}
+.btn{
+	float:left;
+	margin-left: 8px;
+	margin-right: 8px;
+	padding-left: 8px;
+	padding-right: 8px;
+	
+	background: green;
+	color:white;
+	cursor: pointer;
+}
+.score{
+	line-height: 40px;
+	width: 300px;
+	text-align: center;
+	font-size: 16pt;
+	color:green;
+}
